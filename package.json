@@ -1,0 +1,65 @@
+{
+  "name": "loh-token",
+  "version": "1.0.0",
+  "description": "LOH Token - 이재명 대통령의 1시간 = 대한민국 국민 51,169,148명의 시간",
+  "main": "mint-loh-token.js",
+  "scripts": {
+    "start": "node mint-loh-token.js",
+    "mint": "node mint-loh-token.js",
+    "metadata": "node add-metadata.js",
+    "test": "echo \"LOH Token - 이재명 대통령 1시간 = 국민 51,169,148명\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesoklab/loh-token.git"
+  },
+  "keywords": [
+    "loh",
+    "token",
+    "xrpl",
+    "xrp-ledger",
+    "cryptocurrency",
+    "이재명",
+    "lee-jae-myung",
+    "president",
+    "korea",
+    "대한민국",
+    "presidential-token",
+    "commemorative-token"
+  ],
+  "author": "YesOkLab <contact@yesoklab.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yesoklab/loh-token/issues"
+  },
+  "homepage": "https://yesoklab.github.io/loh-website/",
+  "dependencies": {
+    "xrpl": "^3.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "funding": {
+    "type": "crypto",
+    "url": "https://yesoklab.github.io/loh-website/"
+  },
+  "config": {
+    "token": {
+      "name": "LOH Token",
+      "symbol": "LOH",
+      "totalSupply": "51169045",
+      "decimals": 6,
+      "network": "XRP Ledger",
+      "issuer": "rQhbDJ1qJP7hb8PUER1xkcp1NNYighUvYA",
+      "operational": "rhLn2eJwUvmHyvTALYJ9Tprmxk8BYgMCzw"
+    },
+    "meaning": {
+      "korean": "이재명 대통령의 1시간 = 대한민국 국민 51,169,148명의 시간",
+      "english": "President Lee Jae-myung's 1 hour = the time of 51,169,148 Koreans",
+      "population": "51,169,148",
+      "tokenSupply": "51,169,045"
+    }
+  }
+}
